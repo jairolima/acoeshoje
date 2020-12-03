@@ -1,2 +1,7 @@
-node_modules
-.vercel
+/node_modules
+/.vercel
+/.next
+
+npm-debug.log
+.DS_Store
+/*.env
