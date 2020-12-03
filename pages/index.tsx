@@ -62,7 +62,7 @@ const Home: React.FC = () => {
           <Flex flexDir="row">
 
 
-            {!data ? <Skeleton height="60px" width="30px" /> :
+            {!data ? <Skeleton height="60px" width="1px" /> :
               <>
                 {data?.ibovespa.porcentagem.indexOf('+') > -1 ?
                   <ArrowUpIcon mt={3} mr={3} bg="#48BB78" lineHeight="shorter" boxSize="42px" color="white" />
